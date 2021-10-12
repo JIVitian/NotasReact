@@ -48,6 +48,11 @@
 
 <hr>
 
+<h2>Ciclo de vida de los Componentes</h2>
+
+* El metodo render es llamado cada vez que se actualiza un componente.
+
+
 <h2>Otros:</h2>
 
 * Cuando quiero hacer peticiones http, lo mejor es tener un archivo por separado que se encargue de hacer la consulta al servicio.
