@@ -58,11 +58,20 @@
 
 * Nuestro codigo será mas corto y facil de escribir y leer trabajando con hooks.
 
-<h3>useState</h3>
+* <h3>useState</h3>
 
-* Devuelve dos valores, el estado y el actualizador del estado.
+  * Devuelve dos valores, el estado y el actualizador del estado.
 
-* React recomienda que por cada estado, usemos useState para definirlo y actualizarlo.
+  * React recomienda que por cada estado, usemos useState para definirlo y actualizarlo.
+
+* <h3>useEffect</h3>
+  
+  * Nos permite usar el ciclo de vida de un componente de clase.
+
+  * Para ejecutar una sola vez un efecto, puedo dejar la lista de dependencias vacía.
+
+  * Si quiero que el componente se actualice al variar cualquiera de sus estados, no pongo la lista de parametros en la funcion.
+
 
 <h2>Otros:</h2>
 
