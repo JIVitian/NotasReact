@@ -1,4 +1,5 @@
 <h1>Notas React</h1>
+<a href="https://jonmircha.com/react">Notas de Jon Mircha</a>
 
 <h2>JSX:</h2>
 
