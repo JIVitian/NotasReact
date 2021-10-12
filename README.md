@@ -31,6 +31,8 @@
 
 * Cuando cambio el estado de un componente, se renderiza el componente. 
 
+* En una componente de clase, para poder acceder a la misma clase a travez de un evento, debo utilizar bind para asignarle al operador this del entorno de la función el this de la clase. 
+
 <hr>
 
 <h2>Otros:</h2>
