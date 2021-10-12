@@ -35,6 +35,19 @@
 
 <hr>
 
+<h2>Comunicacion entre componentes:</h2>
+* Los componentes se pueden comunicar mandando datos por el prop a sus hijos.
+
+* Tambien se pueden enviar variables de estado para desencadenar eventos en sus eventos hijos, los cuales se veran reflejados en si mismo.
+
+* Otra forma sería buscar algun patron de diseño para poder compartir informacion entre varios componentes.
+
+* A travez de los portales podría mandar informacion entre componentes que no sean padres e hijos, pero que pertenezcan a la misma aplicacion.
+
+* La mejor manera de comunicar estos componentes es a travez de Redux o la API Context.
+
+<hr>
+
 <h2>Otros:</h2>
 
 * Cuando quiero hacer peticiones http, lo mejor es tener un archivo por separado que se encargue de hacer la consulta al servicio.
@@ -50,10 +63,3 @@
 * Link utiliza el historial del navegador para no tener que descargar todos los contenidos de nuevo en el navegador y no cargue los contenidos de la página.
 
 <hr>
-
-<h2>Eventos:</h2>
-* Los eventos se manejan de manera diferente en react, se les agrega una capa adicional para poder darle soporte a todos los navegadores, dicha capa es la capa de eventos sinteticos.
-
-* Puedo acceder al evento de nativo a travez de la propiedad del evento 'nativeEvent'.
-
-* Un evento personalizado es un evento que se pasa por prop a un componente insertado dentro de nuestro componente.
