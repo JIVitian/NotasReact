@@ -21,12 +21,12 @@ export default class ApisAjax extends Component {
     fetch(url)
       .then((res) => res.json())
       .then((json) => {
-        console.log(json);
+        // console.log(json);
         json.results.forEach((el) => {
           fetch(el.url)
             .then((res) => res.json())
             .then((info) => {
-              console.log(info);
+              // console.log(info);
               let pokemon = {
                 id: info.id,
                 name: info.name,

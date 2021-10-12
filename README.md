@@ -52,6 +52,18 @@
 
 * El metodo render es llamado cada vez que se actualiza un componente.
 
+<h2>Hooks:</h2>
+
+* Con estas funciones, dotamos a los componentes funcionales de ciclo de vida y estados.
+
+* Nuestro codigo será mas corto y facil de escribir y leer trabajando con hooks.
+
+<h3>useState</h3>
+
+* Devuelve dos valores, el estado y el actualizador del estado.
+
+* React recomienda que por cada estado, usemos useState para definirlo y actualizarlo.
+
 <h2>Otros:</h2>
 
 * Cuando quiero hacer peticiones http, lo mejor es tener un archivo por separado que se encargue de hacer la consulta al servicio.
