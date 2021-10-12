@@ -48,3 +48,12 @@
 * Investigar como hacer paginacion.
 
 * Link utiliza el historial del navegador para no tener que descargar todos los contenidos de nuevo en el navegador y no cargue los contenidos de la página.
+
+<hr>
+
+<h2>Eventos:</h2>
+* Los eventos se manejan de manera diferente en react, se les agrega una capa adicional para poder darle soporte a todos los navegadores, dicha capa es la capa de eventos sinteticos.
+
+* Puedo acceder al evento de nativo a travez de la propiedad del evento 'nativeEvent'.
+
+* Un evento personalizado es un evento que se pasa por prop a un componente insertado dentro de nuestro componente.
