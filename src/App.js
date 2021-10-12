@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Propiedades from './components/Propiedades';
 import Componente from './components/Componente';
+import Estado from "./components/Estado";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           Learn React
         </a>
       </section>
-      <section>
+      <section className="App-header">
         <Propiedades
           cadena="Esto es una cadena de texto"
           number={1}
@@ -33,6 +34,8 @@ function App() {
             <Componente msg="Soy un componente pasado como Prop"/>
           }
         />
+        <hr />
+        <Estado />
       </section>
     </div>
   );

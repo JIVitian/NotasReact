@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+<h1>Notas React</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>JSX:</h2>
 
-## Available Scripts
+* Todo elemento JSX debe estar enpaquetado en un elemento contenedor.
 
-In the project directory, you can run:
+* Para pasarle algo que no sea string a una propiedad de un componente, debemos utilizar las llaves y mandar, por ejemplo, un número o una cadena.
 
-### `npm start`
+* Para mandar un objeto como propiedad de un componente, debo abrir llaves 2 veces, una para mandar, y otra para denotar que lo que mandamos es un objeto.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Puedo pasar elementos react a traves de las props.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h2>COMPONENTES:</h2>
 
-### `npm test`
+* El estado de un componente son las variables del mismo.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Las props son objetos que se le pasan a los componentes.
 
-### `npm run build`
+* Los componentes tienen un objeto: Component.defaultProps   Que es un objeto con las props por defecto que podemos elegir, se puede utilizar para poner dichas props y se puede acceder a ellas a travez del objeto que recibe la función por parametro.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Para poder darle tipos o hacer que ciertas propiedades de un componente sean opcionales o requeridas, puedo instalar la dependecia "propTypes", puedo buscar su documentacion en NPM.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<hr>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h2>State:</h2>
 
-### `npm run eject`
+* Los estados son las variables que intervienen en la lógica del componente.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* Los estados se propagan desde los elementos padres a los hijos. El estado de un componente padre, se puede pasar como propiedad a sus componentes hijos.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Cuando cambio el estado de un componente, se renderiza el componente. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<hr>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<h2>Otros:</h2>
 
-## Learn More
+* Cuando quiero hacer peticiones http, lo mejor es tener un archivo por separado que se encargue de hacer la consulta al servicio.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Cuando renderizamos un componente a traves de un Array.map, cada elemento debería tener una key propia para poder renderizar de forma eficiente dicho componente.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* La dependencia me permite renderizar mas de una vez un componente si cambia el estado de un componente, dicho estado debe ser una dependencia del useEffect.
 
-### Code Splitting
+* Cuando el estado de un componente depende de una variable que pasamos como parametro del mismo componente, debemos agregar la dependencia en el segundo parametro de useEffect.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Investigar como hacer paginacion.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Link utiliza el historial del navegador para no tener que descargar todos los contenidos de nuevo en el navegador y no cargue los contenidos de la página.
