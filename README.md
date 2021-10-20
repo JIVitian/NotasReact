@@ -72,6 +72,15 @@
 
   * Si quiero que el componente se actualice al variar cualquiera de sus estados, no pongo la lista de parametros en la funcion.
 
+<h2>Referencias:</h2>
+
+* Las referencias sirven para no tener que renderizar de nuevo un elemento al cual queremos cambiar de estados.
+
+* Creamos referencias en componentes de clases con el metodo createRef.
+
+* Creamos referencias en componentes funcionales con el metodo useRef.
+
+* Las referencias contienen dentro de su propiedad current una referencia a un objeto en el DOM, 
 
 <h2>Otros:</h2>
 
