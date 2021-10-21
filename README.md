@@ -100,6 +100,20 @@
 
 * Podría controlar el estado de un formulario con una sola variable, que tenga todos los estados de los inputs. De esta manera podría poner muchos inputs sin la necesidad de escribirlo todo. Para este caso debo generar un solo manejador de estado para todos los inputs y otro para los checked.
 
+<hr>
+
+<h2>Estilos:</h2>
+
+* Se sugiere poner el mismo nombre al archivo CSS y al componente, y que lo pongamos en la misma carpeta.
+
+* Los estilos en linea se expresan como objetos dentro del atributo <b>style<b> del componente.
+
+* Puedo agregar la hoja de estilos normalize escribiendo la linea <b>@import-normalize;</b> en la hoja de estilos de la aplicacion (index.css).
+
+* Podemos tratar los estilos css como modulos. Esto me permite agregar las clases del modulo a los componentes como propiedades. Tambien hará que las clases agreguen caracteres aleatorios al final para tener mas especifidad para el navegador. 
+
+<hr>
+
 <h2>Otros:</h2>
 
 * Cuando quiero hacer peticiones http, lo mejor es tener un archivo por separado que se encargue de hacer la consulta al servicio.

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 // Manejando el estado de los inputs mediante varias variables.
 // export default function Formularios() {
