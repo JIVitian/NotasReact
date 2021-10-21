@@ -52,6 +52,8 @@
 
 * El metodo render es llamado cada vez que se actualiza un componente.
 
+<hr>
+
 <h2>Hooks:</h2>
 
 * Con estas funciones, dotamos a los componentes funcionales de ciclo de vida y estados.
@@ -72,6 +74,8 @@
 
   * Si quiero que el componente se actualice al variar cualquiera de sus estados, no pongo la lista de parametros en la funcion.
 
+<hr>
+
 <h2>Referencias:</h2>
 
 * Las referencias sirven para no tener que renderizar de nuevo un elemento al cual queremos cambiar de estados.
@@ -81,6 +85,20 @@
 * Creamos referencias en componentes funcionales con el metodo useRef.
 
 * Las referencias contienen dentro de su propiedad current una referencia a un objeto en el DOM, 
+
+<hr>
+
+<h2>Formularios:</h2>
+
+* Los valores por defecto se ponen en los inputs con los atributos con prefijo default, por ejemplo: defaultValue, defaultChecked, etc.
+
+* Para controlar los eventos, puedo usar los manejadores de estado de react a travez de los estados o con las referencias.
+
+* Puedo asignarle un eventHandler a un form mediante el atributo <b>onSubmit</b>.
+
+* Puedo manejar el estado de los inputs a travez la fucncion <b>onChange</b>
+
+* Podría controlar el estado de un formulario con una sola variable, que tenga todos los estados de los inputs. De esta manera podría poner muchos inputs sin la necesidad de escribirlo todo. Para este caso debo generar un solo manejador de estado para todos los inputs y otro para los checked.
 
 <h2>Otros:</h2>
 

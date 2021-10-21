@@ -1,20 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-import Propiedades from './components/Propiedades';
-import Componente from './components/Componente';
+import logo from "./logo.svg";
+import "./App.css";
+import Propiedades from "./components/Propiedades";
+import Componente from "./components/Componente";
 import Estado from "./components/Estado";
 import RenderizadoCondicional from "./components/RenderizadoCondicional";
 import RenderizadoElementos from "./components/RenderizadoElementos";
-import {EventosES6, EventosES7, MasSobreEventos} from "./components/Eventos";
+import { EventosES6, EventosES7, MasSobreEventos } from "./components/Eventos";
 import ComunicacionComponentes from "./components/ComunicacionComponentes";
-import CicloVida from './components/CicloVida';
-import AjaxApis from './components/AjaxApis';
-import ContadorHooks from './components/ContadorHooks';
-import ScrollHooks from './components/ScrollHooks';
-import RelojHooks from './components/RelojHooks';
-import AjaxHooks from './components/AjaxHooks';
-import HooksPersonalizados from './components/HooksPersonalizados';
-import Referencias from './components/Referencias';
+import CicloVida from "./components/CicloVida";
+import AjaxApis from "./components/AjaxApis";
+import ContadorHooks from "./components/ContadorHooks";
+import ScrollHooks from "./components/ScrollHooks";
+import RelojHooks from "./components/RelojHooks";
+import AjaxHooks from "./components/AjaxHooks";
+import HooksPersonalizados from "./components/HooksPersonalizados";
+import Referencias from "./components/Referencias";
+import Formularios from "./components/Formularios";
 
 function App() {
   return (
@@ -38,46 +39,52 @@ function App() {
           cadena="Esto es una cadena de texto"
           number={1}
           boolenano={true}
-          arreglo={[1,2,3]}
-          objeto={{ nombre:'juan', correo:'juanperez1@hotmail.com' }}
+          arreglo={[1, 2, 3]}
+          objeto={{ nombre: "juan", correo: "juanperez1@hotmail.com" }}
           funcion={(num) => num * num}
           elementoReact={<i>Esto es un elemento React</i>}
           componenteReact={
-            <Componente msg="Soy un componente pasado como Prop"/>
+            <Componente msg="Soy un componente pasado como Prop" />
           }
         />
         <hr />
         <Estado />
-        <hr/>
+        <hr />
         <RenderizadoCondicional />
-        <hr/>
+        <hr />
         <RenderizadoElementos />
-        <hr/>
+        <hr />
         <EventosES6 />
-        <hr/>
+        <hr />
         <EventosES7 />
-        <hr/>
+        <hr />
         <MasSobreEventos />
-        <hr/>
+        <hr />
         <ComunicacionComponentes />
-        <hr/>
+        <hr />
         <CicloVida />
-        <hr/>
+        <hr />
         <AjaxApis />
-        <hr/>
+        <hr />
         <ContadorHooks />
-        <hr/>
+        <hr />
         <ScrollHooks />
-        <hr/>
+        <hr />
         <RelojHooks />
-        <hr/>
+        <hr />
         <AjaxHooks />
-        <hr/>
+        <hr />
         <HooksPersonalizados />
-        <hr/>
+        <hr />
         <Referencias />
+        <hr />
+        <Formularios />
+        <br />
+        <br />
+        <br />
+        <br />
       </section>
-    </div>  
+    </div>
   );
 }
 
