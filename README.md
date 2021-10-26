@@ -115,7 +115,15 @@
 <h3>Styled Componentes:</h3>
   * Los Styled Components nos permiten poner todo lo relacionado a un componente en un solo archivo, siguiendo así la filosofía <b>Single File Component</b>.
 
-  * 
+  * Puedo pasar props a los styled components, estos se pasaran como atributos del objeto props.
+
+  * La funcion css de styled-components nos permite retornar un templated string en una funcion flecha dentro del mismo styled del componente que estamos modificando.
+
+  * La funcion keyframe me permite definir animaciones de la misma forma que agregamos los estilos de nuestro componente, lo definimos para una variable y luego interpolamos la variable en el estilo del componente para implementarlo.
+
+  * El componente ThemeProvider genera un contexto para enviar propiedades al componente.
+
+  * La funcionalidad createGlobalStyle, nos permite crear estilos globales para todos los componentes que indiquemos se vean afecatados por este, debe llamarse en el index.js o en App.js.
 
 
 <hr>
@@ -134,4 +142,5 @@
 
 * Link utiliza el historial del navegador para no tener que descargar todos los contenidos de nuevo en el navegador y no cargue los contenidos de la página.
 
+* Cuando trabajamos con styled components, nos conviene crear un archivo css que encapsule las variables y temas para nuestros componentes, cuando queremos utilizarlos solo debemos importarlos.
 <hr>
