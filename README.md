@@ -110,7 +110,13 @@
 
 * Puedo agregar la hoja de estilos normalize escribiendo la linea <b>@import-normalize;</b> en la hoja de estilos de la aplicacion (index.css).
 
-* Podemos tratar los estilos css como modulos. Esto me permite agregar las clases del modulo a los componentes como propiedades. Tambien hará que las clases agreguen caracteres aleatorios al final para tener mas especifidad para el navegador. 
+* Podemos tratar los estilos css como modulos. Esto me permite agregar las clases del modulo a los componentes como propiedades. Tambien hará que las clases agreguen caracteres aleatorios al final para tener mas especifidad para el navegador.
+
+<h3>Styled Componentes:</h3>
+  * Los Styled Components nos permiten poner todo lo relacionado a un componente en un solo archivo, siguiendo así la filosofía <b>Single File Component</b>.
+
+  * 
+
 
 <hr>
 
